@@ -1,0 +1,11 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    username: root
+    password: password
+    url: jdbc:h2:../auth
+  jpa:
+    hibernate:
+      ddl-auto: update
